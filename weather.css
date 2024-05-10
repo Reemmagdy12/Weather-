@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    width: 400px;
+    margin: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: rgba(29, 158, 29, 0.856);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 30px;
+    width: 300px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: rgba(29, 158, 29, 0.27);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    margin: 30px;
+    padding: 10px;
+    background: linear-gradient(rgba(61, 61, 243, 0.917), rgba(246, 194, 99, 0.955));
+    box-shadow: 2px 2px rgba(37, 37, 37, 0.578);
+}
+
+
+.displayCity {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.displayTemp {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.displayDesc {
+    font-style: italic;
+    margin-bottom: 30px;
+
+}
+
+.displayEmoji {
+    font-size: 100px;
+
+}
+
+.displayError {
+    font-weight: bold;
+}
+
+.displayHumidity {
+    margin-bottom: 40px;
+}
